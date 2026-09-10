@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Struktur Dasar HTML</title>
+  </head>
+  <body>
+    <!-- Konten halaman ditulis di dalam body -->
+    <h1>Contact Me</h1>
+  </body>
+</html>
+<nav>
+  <a href="home.html">Home</a> | <a href="about.html">About</a> |
+  <a href="project.html">Project</a> |
+  <a href="contact.html">Contact</a>
+</nav>
+
+<body>
+  <h2>Contact Me</h2>
+</body>
+<body>
+  <h2>Informasi Kontak</h2>
+</body>
+<body>
+  <p>
+    Jika anda ingin berdiskusi atau bekerja sama, silahkan hubungi saya melalui
+    form berikut.
+  </p>
+</body>
+<body>
+  <p>Anda juga dapat mengirim email ke llysllysml@gmail.com</p>
+</body>
+<body>
+  <h2>Form pesan</h2>
+</body>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Data Kontak</title>
+
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 540px;
+      }
+
+      th,
+      td {
+        border: 1px solid gray;
+        padding: 7px;
+      }
+
+      th {
+        text-align: center;
+      }
+
+      td:first-child {
+        width: 130px;
+        text-align: right;
+        font-weight: bold;
+      }
+
+      input[type="text"] {
+        width: 230px;
+      }
+
+      input[type="email"] {
+        width: 230px;
+      }
+
+      input[type="tel"] {
+        width: 180px;
+      }
+
+      textarea {
+        width: 275px;
+        height: 75px;
+      }
+
+      .tombol {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <table>
+        <tr>
+          <th colspan="2">Form Data Kontak</th>
+        </tr>
+
+        <tr>
+          <td>Nama Lengkap:</td>
+          <td>
+            <input type="text" name="nama" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Email:</td>
+          <td>
+            <input type="email" name="email" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Nomor Telepon:</td>
+          <td>
+            <input type="tel" name="telepon" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Jenis Kelamin:</td>
+          <td>
+            <input type="radio" name="jenis_kelamin" value="laki-laki" />
+            Laki-laki
+
+            <input type="radio" name="jenis_kelamin" value="perempuan" />
+            Perempuan
+          </td>
+        </tr>
+
+        <tr>
+          <td>Tanggal Lahir:</td>
+          <td>
+            <input type="date" name="tanggal_lahir" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Topik Pesan:</td>
+          <td>
+            <select name="topik">
+              <option>Diskusi</option>
+              <option>Pertanyaan</option>
+              <option>Saran</option>
+              <option>Lainnya</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Jenis Pesan:</td>
+          <td>
+            <input type="radio" name="jenis_pesan" value="pertanyaan" />
+            Pertanyaan
+
+            <input type="radio" name="jenis_pesan" value="saran" />
+            Saran
+
+            <input type="radio" name="jenis_pesan" value="lainnya" />
+            Lainnya
+          </td>
+        </tr>
+
+        <tr>
+          <td>Pesan:</td>
+          <td>
+            <textarea name="pesan"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Salinan Pesan:</td>
+          <td>
+            <input type="checkbox" name="salinan" />
+            Kirim salinan pesan ke email saya
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" class="tombol">
+            <button type="submit">Kirim Pesan</button>
+            <button type="reset">Reset</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
+
+<p>© 2026 Ilyas Ismail. Dibuat menggunakan HTML.</p>
